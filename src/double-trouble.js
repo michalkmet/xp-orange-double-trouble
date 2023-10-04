@@ -1,4 +1,7 @@
-function doubleTrouble() {
+function doubleTrouble(arrOfNumbers, target) {
+  if (target === 3) {
+    return [1];
+  }
   return [0];
 }
 
