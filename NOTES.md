@@ -9,7 +9,7 @@
 
 Pomodoro 1:
 - ✅ DONE Plan 1 pomodoro
-- ⚠ TODO Initial project refactor
+- ✅ DONE Initial project refactor
 - ⚠ TODO add project descrition
 - ⚠ TODO examples, timeline
 - ⚠ TODO User stories
