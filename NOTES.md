@@ -36,4 +36,4 @@ As a user, I want to pass in two numbers, so that I can see jaden case function 
 
 - ✅ DONE UAT1.1: Given I'm going to use the doubleTrouble function, When I pass '[0, 1], 1', Then it should return [0]
 - ✅ DONE UAT1.2: Given I'm going to use the doubleTrouble function, When I pass '[1, 2], 3', Then it should return [1]
-- ⚠ TODO UAT1.3: Given I'm going to use the doubleTrouble function, When I pass '[2, 3], 5', Then it should return [2]
+- ✅ DONE UAT1.3: Given I'm going to use the doubleTrouble function, When I pass '[2, 3], 5', Then it should return [2]
