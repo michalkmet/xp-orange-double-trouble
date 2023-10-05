@@ -19,4 +19,7 @@ describe('User Story 2: three numbers -> return 2 numbers', () => {
   it("UAT2.2: Given I'm going to use the doubleTrouble function, When I pass '[0, 1, 2], 3', Then it should return [0, 1]", () => {
     expect(doubleTrouble([0, 1, 2], 3)).toStrictEqual([0, 1]);
   });
+  it("UAT2.3: Given I'm going to use the doubleTrouble function, When I pass '[2, 1, 0], 3', Then it should return [2, 0]", () => {
+    expect(doubleTrouble([2, 1, 0], 3)).toStrictEqual([2, 0]);
+  });
 });

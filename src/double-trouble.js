@@ -5,7 +5,8 @@ function doubleTrouble(arrOfNumbers, target) {
   for (let i = 0; i < arrOfNumbers.length; i++) {
     result.push(arrOfNumbers[i]);
     if (arrOfNumbers[i] + arrOfNumbers[i + 1] === target) {
-      break;
+      arrOfNumbers.splice(i + 1, 1);
+      continue;
     }
   }
   console.log('result: ', result);
