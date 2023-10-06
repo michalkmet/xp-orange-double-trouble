@@ -31,4 +31,7 @@ describe('User Story 3: many numbers', () => {
   it("UAT3.2: Given I'm going to use the doubleTrouble function, When I pass '[4, 1, 1, 1, 4],2' Then it should return [4, 1, 4]", () => {
     expect(doubleTrouble([4, 1, 1, 1, 4], 2)).toStrictEqual([4, 1, 4]);
   });
+  it("UAT3.3: Given I'm going to use the doubleTrouble function, When I pass '[2, 2, 2, 2, 2, 2], 4' Then it should return [2]", () => {
+    expect(doubleTrouble([2, 2, 2, 2, 2, 2], 4)).toStrictEqual([2]);
+  });
 });

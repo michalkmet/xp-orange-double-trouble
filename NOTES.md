@@ -54,5 +54,5 @@ As a user, I want to pass in many numbers, so that I can see doubleTrouble funct
 
 Pomodoro3: 
 - ✅ DONE UAT3.2: Given I'm going to use the doubleTrouble function, When I pass '[4, 1, 1, 1, 4],2' Then it should return [4, 1, 4]
-- ⚠ TODO UAT3.3: Given I'm going to use the doubleTrouble function, When I pass '[2, 2, 2, 2, 2, 2], 4' Then it should return [2]
+- ✅ DONE UAT3.3: Given I'm going to use the doubleTrouble function, When I pass '[2, 2, 2, 2, 2, 2], 4' Then it should return [2]
 - ⚠ TODO UAT3.4: Given I'm going to use the doubleTrouble function, When I pass '[2, 6, 2], 8' Then it should return [2, 2]
