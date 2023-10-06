@@ -38,7 +38,6 @@ As a user, I want to pass in two numbers, so that I can see jaden case function 
 - ✅ DONE UAT1.2: Given I'm going to use the doubleTrouble function, When I pass '[1, 2], 3', Then it should return [1]
 - ✅ DONE UAT1.3: Given I'm going to use the doubleTrouble function, When I pass '[2, 3], 5', Then it should return [2]
  
-
 Pomodoro 2:
 
 User Story 2: three numbers -> return 2 numbers
@@ -52,6 +51,8 @@ User Story 3: many numbers
 As a user, I want to pass in many numbers, so that I can see doubleTrouble function working
 - ✅ DONE more examples, new user story
 - ✅ DONE UAT3.1: Given I'm going to use the doubleTrouble function, When I pass '[1, 3, 5, 6, 7, 4, 3],7' Then it should return [1, 3, 5, 6, 7, 4]
-- ⚠ TODO UAT3.2: Given I'm going to use the doubleTrouble function, When I pass '[4, 1, 1, 1, 4],2' Then it should return [4, 1, 4]
+
+Pomodoro3: 
+- ✅ DONE UAT3.2: Given I'm going to use the doubleTrouble function, When I pass '[4, 1, 1, 1, 4],2' Then it should return [4, 1, 4]
 - ⚠ TODO UAT3.3: Given I'm going to use the doubleTrouble function, When I pass '[2, 2, 2, 2, 2, 2], 4' Then it should return [2]
 - ⚠ TODO UAT3.4: Given I'm going to use the doubleTrouble function, When I pass '[2, 6, 2], 8' Then it should return [2, 2]
